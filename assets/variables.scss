@@ -2,3 +2,19 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+$body-font-family: "IBM Plex Sans", sans-serif;
+$material-light: (
+    background: #f0f3f6,
+);
+
+$border-radius-root: 16px;
+
+$rounded: (
+    0: 0,
+    "sm": $border-radius-root - 4,
+    null: $border-radius-root,
+    "lg": $border-radius-root + 4,
+    "xl": $border-radius-root + 8,
+    "pill": 9999px,
+    "circle": 50%,
+);
